@@ -35,7 +35,7 @@ public class CreateUserRequestBody {
             this.firstName = "SuriyaPrakash";
             this.lastName = "SS";
             this.title = "mr";
-            this.email = String.format("suriyaprakash%s@gmail.com", UUID.randomUUID());
+            this.email = "suriyaprakash123@gmail.com";
         }
 
         public Builder email(String email)
