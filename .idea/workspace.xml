@@ -8,8 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/user/UserClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/UserClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/user/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/user/createUser/CreateUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/createUser/CreateUserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/user/createUser/request/CreateUserRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/createUser/request/CreateUserRequestBody.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,7 +47,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.GetAllUsersAccountTests.shouldGetAllUsersAccount">
+  <component name="RunManager" selected="Gradle.GetAllUsersTests.getAllUsers">
     <configuration name="CreateUserNegativeTests.shouldNotAllowToCreateUserWithExistingEmail" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -64,29 +62,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;user.createUser.CreateUserNegativeTests.shouldNotAllowToCreateUserWithExistingEmail&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="CreateUserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;user.createUser.CreateUserTest&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -142,12 +117,59 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="GetAllUsersTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;user.getAllUsers.GetAllUsersTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="GetAllUsersTests.getAllUsers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;user.getAllUsers.GetAllUsersTests.getAllUsers&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GetAllUsersTests.getAllUsers" />
+        <item itemvalue="Gradle.GetAllUsersTests" />
         <item itemvalue="Gradle.GetAllUsersAccountTests.shouldGetAllUsersAccount" />
         <item itemvalue="Gradle.CreateUserNegativeTests.shouldNotAllowToCreateUserWithExistingEmail" />
         <item itemvalue="Gradle.CreateUserTest.shouldCreateUser" />
-        <item itemvalue="Gradle.CreateUserTest" />
       </list>
     </recent_temporary>
   </component>

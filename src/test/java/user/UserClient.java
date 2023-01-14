@@ -26,6 +26,16 @@ public class UserClient {
                 .get("https://dummyapi.io/data/v1/user");
         response.then().log().body();
         return response;
+    }
+
+    public Response getAll(){
+        Response response = given()
+                .header("app-id", "63bfa624e6f00077ab32cfd9")
+                .when()
+                .queryParam("created",1)
+                .get("https://dummyapi.io/data/v1/user");
+        response.then().log().body();
+        return response;
 
     }
 }
