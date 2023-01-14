@@ -17,4 +17,15 @@ public class UserClient {
        response.then().log().body();
        return response;
     }
+
+    public Response getAllUsers(){
+        Response response = given().
+                header("app-id", "63bfa624e6f00077ab32cfd9")
+                .when()
+                .queryParam("limit", 10)
+                .get("https://dummyapi.io/data/v1/user");
+        response.then().log().body();
+        return response;
+
+    }
 }

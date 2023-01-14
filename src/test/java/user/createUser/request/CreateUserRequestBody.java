@@ -1,15 +1,11 @@
 package user.createUser.request;
 
-import lombok.Builder;
 import lombok.Getter;
-import java.util.UUID;
 @Getter
 public class CreateUserRequestBody {
 
     private String firstName;
-
     private String lastName;
-
     private String title;
     private String email;
 

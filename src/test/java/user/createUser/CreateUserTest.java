@@ -1,5 +1,4 @@
 package user.createUser;
-
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import user.UserService;
