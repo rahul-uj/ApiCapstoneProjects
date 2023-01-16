@@ -2,6 +2,7 @@ package blog_post;
 
 import blog_post.createBlogPost.request.CreateBlogPostRequestBody;
 import blog_post.createBlogPost.response.CreateBlogPostResponse;
+import blog_post.deleteBlogPost.response.DeleteBlogPostResponse;
 import blog_post.getBlogPost.response.GetBlogPostByIdResponse;
 import io.restassured.response.Response;
 
@@ -20,6 +21,14 @@ public class BlogPostService {
         GetBlogPostByIdResponse getBlogPostByIdResponse = response.as(GetBlogPostByIdResponse.class);
         getBlogPostByIdResponse.setStatusCode(statusCode);
         return  getBlogPostByIdResponse;
+    }
+
+    public DeleteBlogPostResponse deleteBlogPostById(String post_id){
+        Response response = new BlogPostClient().deletePostById(post_id);
+        int statusCode = response.statusCode();
+        DeleteBlogPostResponse deleteBlogPostResponse = response.as(DeleteBlogPostResponse.class);
+        deleteBlogPostResponse.setStatusCode(statusCode);
+        return deleteBlogPostResponse;
     }
 
 }

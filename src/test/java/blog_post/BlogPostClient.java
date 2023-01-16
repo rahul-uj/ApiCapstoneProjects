@@ -29,4 +29,15 @@ public class BlogPostClient {
                 .body();
         return  response;
     }
+
+    public Response deletePostById(String post_id){
+        Response response = given()
+                .header("app-id", "63bfa624e6f00077ab32cfd9")
+                .when()
+                .pathParam("post_id", post_id)
+                .delete("https://dummyapi.io/data/v1/post/{post_id}");
+        response.then()
+                .log().body();
+        return response;
+    }
 }
