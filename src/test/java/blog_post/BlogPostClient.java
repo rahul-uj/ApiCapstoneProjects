@@ -17,4 +17,16 @@ public class BlogPostClient {
         response.then().log().body();
         return response;
     }
+
+    public Response getBlogPostById(String post_id){
+        Response response = given()
+                .header("app-id", "63bfa624e6f00077ab32cfd9")
+                .when()
+                .pathParam("post_id", post_id)
+                .get("https://dummyapi.io/data/v1/post/{post_id}");
+        response.then()
+                .log()
+                .body();
+        return  response;
+    }
 }

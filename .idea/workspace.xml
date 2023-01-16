@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1ae62837-3859-4858-b2d0-a26e85676abc" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/blog_post/BlogPostClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/blog_post/BlogPostClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/blog_post/BlogPostService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/blog_post/BlogPostService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +47,7 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.CreateBlogPostTest.shouldCreatePost">
+  <component name="RunManager" selected="Gradle.GetBlogPostTest.getBlogPost">
     <configuration name="CreateBlogPostTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -83,29 +85,6 @@
             <option value=":test" />
             <option value="--tests" />
             <option value="&quot;blog_post.createBlogPost.CreateBlogPostTest.shouldCreatePost&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="GetAllUsersAccountTests.shouldGetAllUsersAccount" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;user.getAllUsersAccount.GetAllUsersAccountTests.shouldGetAllUsersAccount&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -161,13 +140,36 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="GetBlogPostTest.getBlogPost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;blog_post.getBlogPost.GetBlogPostTest.getBlogPost&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GetBlogPostTest.getBlogPost" />
         <item itemvalue="Gradle.CreateBlogPostTest.shouldCreatePost" />
         <item itemvalue="Gradle.CreateBlogPostTest" />
         <item itemvalue="Gradle.GetAllUsersTests.getAllUsers" />
         <item itemvalue="Gradle.GetAllUsersTests" />
-        <item itemvalue="Gradle.GetAllUsersAccountTests.shouldGetAllUsersAccount" />
       </list>
     </recent_temporary>
   </component>
@@ -181,5 +183,16 @@
       <updated>1673508602258</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/blog_post/BlogPostClient.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
