@@ -25,6 +25,7 @@ public class BlogPostIntegrationTest {
         String id = response.getId();
         DeleteBlogPostResponse deleteBlogPostResponse = blogPostService.deleteBlogPostById(id);
         int deleteStatusCode = deleteBlogPostResponse.getStatusCode();
+
         assertEquals(deleteStatusCode,200);
     }
 }
