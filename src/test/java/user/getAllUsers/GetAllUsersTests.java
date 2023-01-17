@@ -21,7 +21,7 @@ public class GetAllUsersTests {
         GetAllUsersResponse getAllUsersResponse = userService.getAll();
 
         assertEquals(getAllUsersResponse.getStatusCode(),200);
-        assertEquals(getAllUsersResponse.getData().size(),7);
+        assertEquals(getAllUsersResponse.getData().size(),9);
 
     }
 }

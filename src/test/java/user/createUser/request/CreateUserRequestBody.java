@@ -31,7 +31,7 @@ public class CreateUserRequestBody {
             this.firstName = "SuriyaPrakash";
             this.lastName = "SS";
             this.title = "mr";
-            this.email = "suriyaprakash123@gmail.com";
+            this.email = "suriyaprakash1@gmail.com";
         }
 
         public Builder email(String email)
@@ -45,5 +45,4 @@ public class CreateUserRequestBody {
             return createUserRequestBody;
         }
     }
-
 }

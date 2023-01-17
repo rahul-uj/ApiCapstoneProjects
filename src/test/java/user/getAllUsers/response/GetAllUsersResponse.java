@@ -3,7 +3,6 @@ package user.getAllUsers.response;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import lombok.Getter;
 import lombok.Setter;
-
 import java.util.List;
 @Getter
 public class GetAllUsersResponse {
@@ -16,9 +15,9 @@ public class GetAllUsersResponse {
     @JsonProperty("data")
     private List<Data> data;
 
-    private String limit;
+    private int limit;
 
-    private String page;
+    private int page;
 
     @Getter
     public static class Data{
@@ -32,6 +31,4 @@ public class GetAllUsersResponse {
 
         private String picture;
     }
-
-
 }

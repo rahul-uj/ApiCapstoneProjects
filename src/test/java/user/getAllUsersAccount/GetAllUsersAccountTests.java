@@ -20,7 +20,5 @@ public class GetAllUsersAccountTests {
         GetAllUsersAccountResponse getAllUsersAccountResponse = userService.getAllUsers();
         Assert.assertEquals(getAllUsersAccountResponse.getStatusCode(),200);
         Assert.assertEquals(getAllUsersAccountResponse.getData().size(),10);
-
-
     }
 }
