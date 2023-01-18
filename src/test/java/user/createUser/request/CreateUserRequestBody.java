@@ -28,10 +28,10 @@ public class CreateUserRequestBody {
 
 
         public Builder() {
-            this.firstName = "SuriyaPrakash";
-            this.lastName = "SS";
+            this.firstName = "Suresh";
+            this.lastName = "Patil";
             this.title = "mr";
-            this.email = "suriyaprakash1@gmail.com";
+            this.email = "sureshpatil14@gmail.com";
         }
 
         public Builder email(String email)
