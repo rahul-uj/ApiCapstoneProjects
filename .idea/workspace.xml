@@ -4,13 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1ae62837-3859-4858-b2d0-a26e85676abc" name="Changes" comment="updated yml file">
+    <list default="true" id="1ae62837-3859-4858-b2d0-a26e85676abc" name="Changes" comment="updated code">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/blog_post/BlogPostClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/blog_post/BlogPostClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/blog_post/createBlogPost/CreateBlogPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/blog_post/createBlogPost/CreateBlogPostTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/blog_post/deleteBlogPost/DeleteBlogPostTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/blog_post/deleteBlogPost/DeleteBlogPostTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/blog_post/getBlogPost/GetBlogPostTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/blog_post/getBlogPost/GetBlogPostTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/user/createUser/CreateUserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/createUser/CreateUserTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/user/createUser/request/CreateUserRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/user/createUser/request/CreateUserRequestBody.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,30 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="Gradle.CreateUserTest">
+  <component name="RunManager" selected="Gradle.DeleteBlogPostTests.deleteBlogPost">
+    <configuration name="CreateBlogPostTest.shouldCreatePost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;blog_post.createBlogPost.CreateBlogPostTest.shouldCreatePost&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="CreateUserTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -87,7 +108,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GetAllUsersTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CreateUserTest.shouldCreateUser" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -100,7 +121,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;user.getAllUsers.GetAllUsersTests&quot;" />
+            <option value="&quot;user.createUser.CreateUserTest.shouldCreateUser&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -110,7 +131,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GetAllUsersTests.getAllUsers" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="DeleteBlogPostTests.deleteBlogPost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -123,7 +144,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;user.getAllUsers.GetAllUsersTests.getAllUsers&quot;" />
+            <option value="&quot;blog_post.deleteBlogPost.DeleteBlogPostTests.deleteBlogPost&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -156,36 +177,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="GetBlogPostTest.getBlogPost" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-            <option value="--tests" />
-            <option value="&quot;blog_post.getBlogPost.GetBlogPostTest.getBlogPost&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.DeleteBlogPostTests.deleteBlogPost" />
+        <item itemvalue="Gradle.CreateBlogPostTest.shouldCreatePost" />
+        <item itemvalue="Gradle.CreateUserTest.shouldCreateUser" />
         <item itemvalue="Gradle.CreateUserTest" />
-        <item itemvalue="Gradle.GetAllUsersTests.getAllUsers" />
-        <item itemvalue="Gradle.GetAllUsersTests" />
         <item itemvalue="Gradle.GetBlogPostTest" />
-        <item itemvalue="Gradle.GetBlogPostTest.getBlogPost" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675837381773</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updated code">
+      <created>1675838970085</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1675838970085</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,7 +232,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated yml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated yml file" />
+    <MESSAGE value="updated code" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

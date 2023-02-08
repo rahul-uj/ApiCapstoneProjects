@@ -1,0 +1,1 @@
+{"uuid":"2b3aed51-afa1-4605-bd54-4167d099ddd8","name":"blog_post.getBlogPost.GetBlogPostTest","children":["4068c6a6-e5e4-4f06-8587-e8243b5c24d7"],"befores":[{"name":"beforeClass","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1675838746121,"stop":1675838746128}],"afters":[],"start":1675838746085,"stop":1675838748390}

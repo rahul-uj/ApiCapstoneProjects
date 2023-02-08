@@ -1,6 +1,9 @@
 package user.createUser.request;
 
 import lombok.Getter;
+
+import java.util.UUID;
+
 @Getter
 public class CreateUserRequestBody {
 
@@ -31,7 +34,7 @@ public class CreateUserRequestBody {
             this.firstName = "Suresh";
             this.lastName = "Patil";
             this.title = "mr";
-            this.email = "sureshpatil1489@gmail.com";
+            this.email = "suresh@gmail.com";
         }
 
         public Builder email(String email)

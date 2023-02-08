@@ -1,6 +1,7 @@
 package blog_post.deleteBlogPost;
 
 import blog_post.BlogPostService;
+import blog_post.createBlogPost.request.CreateBlogPostRequestBody;
 import blog_post.deleteBlogPost.response.DeleteBlogPostResponse;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
@@ -17,10 +18,11 @@ public class DeleteBlogPostTests {
 
     @Test(priority=3)
     public void deleteBlogPost(){
-        String post_Id = "63e345bcfc308179152070bb";
-        DeleteBlogPostResponse deleteBlogPostResponse = blogPostService.deleteBlogPostById(post_Id);
+
+        CreateBlogPostRequestBody createBlogPostRequestBody=new CreateBlogPostRequestBody.Builder().build();
+        String createdPostId = blogPostService.create(createBlogPostRequestBody).getId();
+        DeleteBlogPostResponse deleteBlogPostResponse = blogPostService.deleteBlogPostById(createdPostId);
 
         Assert.assertEquals(deleteBlogPostResponse.getStatusCode(),200);
-
     }
 }

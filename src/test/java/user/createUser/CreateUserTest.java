@@ -5,6 +5,8 @@ import user.UserService;
 import user.createUser.request.CreateUserRequestBody;
 import user.createUser.response.CreateUserResponse;
 
+import java.util.UUID;
+
 public class CreateUserTest {
 
     private UserService userService;
@@ -15,7 +17,8 @@ public class CreateUserTest {
     @Test
     public void shouldCreateUser(){
 
-        CreateUserRequestBody createUserRequestBody = new CreateUserRequestBody.Builder().build();
+        CreateUserRequestBody createUserRequestBody = new CreateUserRequestBody.Builder()
+                .email(String.format("%s@xyz.com", UUID.randomUUID())).build();
         CreateUserResponse createUserResponse = userService.createUser(createUserRequestBody);
         createUserResponse.assertUser(createUserRequestBody);
     }
