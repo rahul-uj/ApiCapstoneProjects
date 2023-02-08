@@ -14,7 +14,7 @@ public class CreateBlogPostTest {
     public void beforeClass(){
         blogPostService = new BlogPostService();
     }
-    @Test
+    @Test(priority=1)
     public void shouldCreatePost(){
         CreateBlogPostRequestBody requestBody = new CreateBlogPostRequestBody.Builder().build();
         CreateBlogPostResponse createBlogPostResponse = blogPostService.create(requestBody);

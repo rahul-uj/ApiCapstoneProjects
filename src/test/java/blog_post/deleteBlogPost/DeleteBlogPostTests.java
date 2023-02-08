@@ -15,9 +15,9 @@ public class DeleteBlogPostTests {
         blogPostService = new BlogPostService();
     }
 
-    @Test
+    @Test(priority=3)
     public void deleteBlogPost(){
-        String post_Id = "63c4f51d4f92372f62cb9aa7";
+        String post_Id = "63e345bcfc308179152070bb";
         DeleteBlogPostResponse deleteBlogPostResponse = blogPostService.deleteBlogPostById(post_Id);
 
         Assert.assertEquals(deleteBlogPostResponse.getStatusCode(),200);

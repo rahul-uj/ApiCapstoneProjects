@@ -17,9 +17,9 @@ public class GetBlogPostTest {
     public void beforeClass(){
         blogPostService = new BlogPostService();
     }
-    @Test
+    @Test(priority=2)
     public void getBlogPost(){
-        String post_id = "63c4dd3c4f9237672ecb80e9";
+        String post_id = "63e3450dfc308112fa206ffe";
         GetBlogPostByIdResponse response = blogPostService.getBlogPost(post_id);
 
         assertEquals(response.getStatusCode(),200);

@@ -1,5 +1,6 @@
 package blog_post;
 import blog_post.createBlogPost.request.CreateBlogPostRequestBody;
+import io.qameta.allure.restassured.AllureRestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import static io.restassured.RestAssured.given;
@@ -34,6 +35,7 @@ public class BlogPostClient {
         Response response = given()
                 .header("app-id", "63bfa624e6f00077ab32cfd9")
                 .when()
+                .filter(new AllureRestAssured())
                 .pathParam("post_id", post_id)
                 .delete("https://dummyapi.io/data/v1/post/{post_id}");
         response.then()
